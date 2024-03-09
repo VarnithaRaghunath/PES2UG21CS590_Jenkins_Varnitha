@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                // sh './output'
-                sh 'exit 1'
+                 sh './output' //correct code
+                //sh 'exit 1'  // intentional error
             }
         }
         stage('Deploy') {
