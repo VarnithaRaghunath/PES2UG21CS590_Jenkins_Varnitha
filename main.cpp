@@ -1,9 +1,7 @@
 #include <iostream>
-using namespace std;
 
-int main(void) {
-for(int i=1;i<=5;i++){
-        cout << i <<"\n";
-    }
-  return 0;
+int main()
+{
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
 }
